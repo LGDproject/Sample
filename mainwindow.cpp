@@ -20,7 +20,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_actionChinese_Simplify_triggered()
 {
     QTranslator *translator = new QTranslator();
-    if(translator->load("../untitled1/simplify.qm"))
+    if(translator->load("../Sample/simplify.qm"))
     {   qApp->installTranslator(translator);
         ui->retranslateUi(this);
     }else{
@@ -32,7 +32,7 @@ void MainWindow::on_actionChinese_Simplify_triggered()
 void MainWindow::on_actionChinese_Tranditional_triggered()
 {
     QTranslator *translator = new QTranslator();
-    if(translator->load("../untitled1/traditional.qm"))
+    if(translator->load("../Sample/traditional.qm"))
     {   qApp->installTranslator(translator);
         ui->retranslateUi(this);
     }else{
@@ -44,7 +44,7 @@ void MainWindow::on_actionChinese_Tranditional_triggered()
 void MainWindow::on_actionEnglish_triggered()
 {
     QTranslator *translator = new QTranslator();
-    if(translator->load("../untitled1/english.qm"))
+    if(translator->load("../Sample/english.qm"))
     {   qApp->installTranslator(translator);
         ui->retranslateUi(this);
     }else{
@@ -58,7 +58,7 @@ void MainWindow::on_actionEnglish_triggered()
 void MainWindow::on_actionJapanese_triggered()
 {
     QTranslator *translator = new QTranslator();
-    if(translator->load("../untitled1/japanses.qm"))
+    if(translator->load("../Sample/japanses.qm"))
     {   qApp->installTranslator(translator);
         ui->retranslateUi(this);
     }else{
@@ -71,7 +71,7 @@ void MainWindow::on_actionJapanese_triggered()
 void MainWindow::on_actionRussian_triggered()
 {
     QTranslator *translator = new QTranslator();
-    if(translator->load("../untitled1/russain.qm"))
+    if(translator->load("../Sample/russain.qm"))
     {   qApp->installTranslator(translator);
         ui->retranslateUi(this);
     }else{
