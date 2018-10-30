@@ -94,7 +94,7 @@
      <x>0</x>
      <y>0</y>
      <width>400</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -134,6 +134,7 @@
     </property>
     <addaction name="actionbrowser"/>
     <addaction name="actionshortcut"/>
+    <addaction name="actionSetting"/>
    </widget>
    <widget class="QMenu" name="menuAnalyse">
     <property name="title">
@@ -214,6 +215,11 @@
   <action name="actionFull_Screen">
    <property name="text">
     <string>Full Screen</string>
+   </property>
+  </action>
+  <action name="actionSetting">
+   <property name="text">
+    <string>Setting</string>
    </property>
   </action>
  </widget>
